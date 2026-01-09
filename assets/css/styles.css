@@ -21,6 +21,10 @@ body {
     margin-right: 16px;
 }
 
+.btn:hover {
+  background-color: #336f4e;
+}
+
 .transparent-btn {
     font-size: 16px;
     font-weight: 600;
@@ -29,6 +33,12 @@ body {
     background-color: transparent;
     border-radius: 4px;
     border: 1px solid white;
+}
+
+.transparent-btn:hover {
+  background-color: #469165;
+    border-color: #469165;
+    color: #ffffff;
 }
 
 /* end share css */
