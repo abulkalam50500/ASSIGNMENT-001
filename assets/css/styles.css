@@ -305,3 +305,49 @@ footer{
 .footer-container{
     max-width: 1161px; 
 }
+
+.footer-container .footer-top{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.footer-container .footer-top img{
+  max-width: 139px;
+  height: 60px;
+}
+
+.footer-top .footer-social{
+    max-width: 220px;
+}
+
+.footer-top .footer-social h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-social ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social ul li a{
+    background-color: #FFFFFF;
+    max-width: 20px;
+    height: 20px;
+    border-radius: 22px;
+    padding: 4px;
+    color: black;
+}
+
+.footer-container .footer-copyright{
+    border-top: 1px solid #444444;
+    
+}
+.footer-container .footer-copyright p{
+    margin-top: 30px;
+    color: #FAFAFA;
+    text-align: center;    
+}
