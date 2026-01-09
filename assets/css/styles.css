@@ -98,11 +98,10 @@ nav .menu ul li a {
 .banner-round-circle {
     width: 16px;
     height: 16px;
-    background-image: radial-gradient(circle at center, 
-        #469165 0%, 
-        rgba(70, 145, 101, 0.5) 70%, 
-        rgba(70, 145, 101, 0) 100%
-    );
+    background-image: radial-gradient(circle at center,
+            #469165 0%,
+            rgba(70, 145, 101, 0.5) 70%,
+            rgba(70, 145, 101, 0) 100%);
     margin-right: 6px;
     border-radius: 8px;
 
@@ -117,12 +116,12 @@ nav .menu ul li a {
     margin-bottom: 16px;
 }
 
-.color-green{
+.color-green {
     color: #30B868;
 }
 
 
-.banner-container .banner-info{
+.banner-container .banner-info {
 
     color: #FFFFFF;
     line-height: 24px;
@@ -131,4 +130,68 @@ nav .menu ul li a {
     padding: 0px 216px;
     margin-bottom: 32px;
 
+}
+
+#notes {
+    padding: 0px 120px;
+}
+
+#notes .notes-container {
+    max-width: 1161px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+}
+
+.notes-container .notes-heading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.notes-container .notes-heading h2 {
+    font-size: 48px;
+    color: #001931;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.notes-container .notes-heading p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.notes-container .notes-boxs {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.notes-boxs .note-card {
+    max-width: 322px;
+    padding: 70px 12px;
+}
+
+.notes-boxs .note-card .img-bg {
+    max-width: 60px;
+    max-height: 60px;
+    background-color: #F95555;
+    text-align: center;
+    border-radius: 50%;
+    padding: 14px;
+    margin: 0 auto 16px;
+}
+
+.note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.note-card p{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    
 }
