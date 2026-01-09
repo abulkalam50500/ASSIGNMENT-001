@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* start share css */
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 13px 16px;
+    background-color: #469165;
+    border-radius: 4px;
+    border: none;
+    margin-right: 16px;
+}
+
+.transparent-btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 13px 16px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+/* end share css */
+
+/* main css */
+
+header {}
+
+nav {
+    padding: 16px 120px 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    max-width: 139px;
+}
+
+nav .menu ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+
+#banner {
+    background: url("../images/hero-bg.png");
+    padding: 115px 120px 180px 120px;
+    background-repeat: no-repeat;
+}
+
+#banner .banner-container {
+
+    max-width: 1161px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.banner-container .banner-rounded {
+    max-width: 229px;
+    margin: 0 auto 14px;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px 8px;
+}
+
+.banner-rounded .circle-info {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.banner-round-circle {
+    width: 16px;
+    height: 16px;
+    background-image: radial-gradient(circle at center, 
+        #469165 0%, 
+        rgba(70, 145, 101, 0.5) 70%, 
+        rgba(70, 145, 101, 0) 100%
+    );
+    margin-right: 6px;
+    border-radius: 8px;
+
+}
+
+#banner .banner-container h1 {
+    padding: 16px 214px 16px 214px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.color-green{
+    color: #30B868;
+}
+
+
+.banner-container .banner-info{
+
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0px 216px;
+    margin-bottom: 32px;
+
+}
