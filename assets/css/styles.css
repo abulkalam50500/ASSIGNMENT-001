@@ -132,6 +132,9 @@ nav .menu ul li a {
 
 }
 
+
+/* notes section */
+
 #notes {
     padding: 0px 120px;
 }
@@ -182,16 +185,72 @@ nav .menu ul li a {
     margin: 0 auto 16px;
 }
 
-.note-card h3{
+.note-card h3 {
     font-size: 24px;
     font-weight: 600;
     color: #001931;
     text-align: center;
     margin-bottom: 16px;
 }
-.note-card p{
+
+.note-card p {
     font-size: 16px;
     color: #627382;
     text-align: center;
-    
+
+}
+
+
+/* solution section */
+
+#solution {
+    padding: 120px;
+}
+
+#solution .solution-container {
+    max-width: 1161px;
+    display: flex;
+}
+
+#solution .solution-container .solution-image img {
+    max-width: 600px;
+}
+
+
+.solution-container .solution-content {
+
+    padding: 102px 0px 102px 60px;
+  
+}
+
+.solution-content .solution-general-info .solution-top-headline {
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+} 
+.solution-content .solution-general-info h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+} 
+
+.solution-content .solution-general-info .solution-text {
+  
+    color: #627382;
+    margin-bottom: 16px;
+} 
+
+
+.solution-content .solution-list ul{
+    list-style: none;
+}
+.solution-content .solution-list ul li{
+    display: flex;
+    margin-top: 16px;
+}
+
+.solution-content .solution-list ul li img{
+    margin-right: 6px;
 }
