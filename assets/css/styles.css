@@ -254,3 +254,54 @@ nav .menu ul li a {
 .solution-content .solution-list ul li img{
     margin-right: 6px;
 }
+
+
+/* ready to think section */
+
+#ready-to-think{
+    padding: 2px 120px 120px 120px;
+}
+
+#ready-to-think .ready-to-think-container{
+    max-width: 1161px;
+  
+}
+.ready-to-think-container .ready-to-think-heading{
+    padding: 80px 40px 24px 40px;
+    text-align: center;
+   
+}
+.ready-to-think-container .ready-to-think-heading h1{
+   color: #001931;
+   font-size: 40px;
+   font-weight: bold;
+}
+
+.ready-to-think-container .ready-to-think-heading p{
+   color: #627382;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.ready-to-think-container .ready-to-think-fooer{
+    padding: 0px 40px 80px 40px;
+    text-align: center;
+}
+.ready-to-think-container .ready-to-think-fooer p{
+    margin-top: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+
+
+/* footer section */
+
+footer{
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+
+.footer-container{
+    max-width: 1161px; 
+}
